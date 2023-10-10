@@ -1,0 +1,85 @@
+body{
+    min-height: 100vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+div{
+    background-color: black;
+    width: 350px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.1rem;
+    padding: auto;
+    place-items: center;
+    
+}
+
+button{  
+    border: none;
+    border-radius: .3rem; 
+    background-color: rgb(42, 41, 45);
+    color: white; 
+    width: 100%;
+    height: 100%;
+}
+
+button:hover{
+    background-color: rgb(59, 58, 62); 
+
+}
+
+.display{
+    border: none;
+    grid-column: 1 / -1;
+    background-color: rgb(0, 6, 0);
+    color: white;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.numero{
+    background-color: rgb(59, 58, 62);
+    color: white;
+}
+
+
+.igual{
+    background-color: rgb(135, 197, 228);
+    color: black;
+}
+
+.igual:hover{
+    background-color: rgb(123, 178, 206);
+}
+
+.numero:hover{
+   background-color: rgb(42, 41, 45);
+}
+
+div{
+    height: 600px;
+}
+
+input{
+    width: 300px;
+}
+
+#color {
+    background-color: rgb(59, 58, 62);
+    color: white;
+}
+
+#color:hover{
+    background-color: rgb(42, 41, 45);
+}
+
+
+
+
